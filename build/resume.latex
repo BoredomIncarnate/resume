@@ -1,0 +1,177 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage[margin=0.5in]{geometry}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setcounter{secnumdepth}{0}
+
+
+% Disable page numbers
+\pagenumbering{gobble}
+% Increase the width of the central column seperator
+\setlength\columnsep{40pt}
+
+% Increase the font size of sections
+\titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
+\titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
+
+\titlespacing*{\section}{0pt}{10pt}{0pt}
+\titlespacing*{\label}{0pt}{10pt}{10pt}
+\titlespacing*{\subsection}{0pt}{15pt}{10pt}
+\titlespacing*{\subsubsection}{0pt}{15pt}{5pt}
+\titlespacing*{\itemize}{0pt}{0pt}{0pt}
+\titlespacing*{\paragraph}{0pt}{0pt}{0pt}
+
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+
+\begin{document}
+
+
+
+\begin{multicols}{2}
+\hypertarget{kyle-young}{%
+\section{Kyle Young}\label{kyle-young}}
+
+dev.kyoung@gmail.com 206.822.4725
+
+\href{http://github.com/boredomincarnate}{github.com/BoredomIncarnate}
+
+\hypertarget{profile}{%
+\subsection{Profile}\label{profile}}
+
+Looking to advance tech career as an engineer. Offering skills in
+application development, modern web apps, and cloud-based services.
+
+\hypertarget{experience}{%
+\subsection{Experience}\label{experience}}
+
+SOFTWARE DEVELOPER, 3SHARP, REDMOND, WA --- 2018-2019
+
+\begin{itemize}
+\tightlist
+\item
+  Generated customer tailored vertical slices under tight the
+  constraints for key customers in small development groups.
+\item
+  Wrote location services using .Net Core / Angular7 to generate geo
+  specific enterprise tools to empower the workforces of our clients.
+\item
+  Active contributor in new business developments with key clients.
+  Reviewed and managed new projects.
+\item
+  Developed automation workflows for packaging tools to increase
+  productivity and reduce time by eliminating the need for manual
+  look-ups and data verification.
+\item
+  Filled in missing or incomplete documentation for internal tools.
+\item
+  Worked directly with the sales team and provided application support
+  at MS Ignite 2019. Provided technical knowledge in a customer facing
+  role.
+\end{itemize}
+
+APPLICATION DEVELOPER II, LOGAN ALUMINUM, RUSSELLVILLE, KY --- 2016-2018
+
+\begin{itemize}
+\tightlist
+\item
+  Creating an application for chemistry calculation and prediction for
+  ingot casting that reduced \textasciitilde1million dollars in
+  manufacturing waste.
+\item
+  Optimized sourcing and planning software by creating fulfillment and
+  strategic sourcing tools to eliminate waste, saving tens of thousands
+  of dollars.
+\item
+  Created Angular / .Net web applications for critical monitoring
+  applications.
+\item
+  Workshopped new processes to better distribute and solve customer
+  cases
+\item
+  Worked on-call for urgent customer cases and as a standby for newer
+  developers
+\item
+  Implemented automated builds and QA deployments SOFTWARE DEVELOPMENT
+  INTERN, INDUSTRIAL TRAINING SERVICES, MURRAY, KY --- 2014-2016
+\item
+  Developed Asp.Net web forms / javascript training applications for
+  those in the Natural Gas field to have a unified source of employees
+  training status and fulfillment
+\item
+  Created reporting software add-ons for the training data so managers
+  could visualize and easily understand the training software data for
+  their company
+\item
+  Wrote office automation scripts to format data for the training
+  software systems
+\end{itemize}
+
+FINANCIAL SYSTEMS INTERN, SPRING LEAF FINANCIAL, EVANSVILLE, IN --- 2014
+
+\begin{itemize}
+\tightlist
+\item
+  Developed Financial reporting tools using CoBOL and JCL
+\item
+  Created a job that would transfer data from z/OS DB2 database to a MS
+  SQL Server database. Skills \#\#\# Languages: C\# (5 years),
+  JavaScript (4 years), TypeScript
+\end{itemize}
+
+\hypertarget{other-technologies-angular-t-sql-pl-sql-azure-aws-blazor}{%
+\subsubsection{Other Technologies: Angular, T-SQL, P/L SQL, Azure, AWS,
+Blazor}\label{other-technologies-angular-t-sql-pl-sql-azure-aws-blazor}}
+
+Education Murray State University, Murray, KY --- B.S. Computer Science
+(Cum Laude), 2016
+\end{multicols}
+
+\end{document}

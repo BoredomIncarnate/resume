@@ -1,0 +1,108 @@
+% preamble for all templates
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage[top=0.35in, bottom=0.00in, left=0.60in, right=0.60in]{geometry}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parskip}{0pt}
+%\setlength{\emergencystretch}{3em}  % prevent overfull lines
+
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setcounter{secnumdepth}{0}
+
+
+% Disable page numbers
+\pagenumbering{gobble}
+% Increase the width of the central column seperator
+\setlength\columnsep{40pt}
+
+% Increase the font size of sections
+\titleformat{\section}{\normalfont\Huge\bfseries\filcenter}{}{}{}
+\titleformat{\subsection}{\normalfont\LARGE\bfseries}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesection}{}{}
+
+% \titlespacing*{\foobar}{left_margin}{top_margin}{bottom_margin}
+
+% Markdown: #
+\titlespacing*{\section}{0pt}{0pt}{5pt}
+% Markdown: ##
+\titlespacing*{\subsection}{0pt}{8pt}{8pt}
+% Markdown: ###
+\titlespacing*{\subsubsection}{0pt}{15pt}{5pt}
+% Markdown: -
+\titlespacing*{\itemize}{0pt}{0pt}{0pt}
+% Markdown: plain text
+\titlespacing*{\paragraph}{0pt}{15pt}{10pt}
+% Markdown: ???
+\titlespacing*{\label}{0pt}{0pt}{0pt}
+
+\setlist[itemize]{noitemsep, topsep=0pt, leftmargin=*}
+
+\begin{document}
+
+
+\begin{center}
+
+\hypertarget{adam-ryman}{%
+\section{Adam Ryman}\label{adam-ryman}}
+
+\hypertarget{backend-developer-cicd-enthusiast}{%
+\section{Backend Developer \&\& CI/CD
+Enthusiast}\label{backend-developer-cicd-enthusiast}}
+
+\textless{} \textbf{adamryman@gmail.com} \textgreater{}
+\textasciitilde\textasciitilde\textasciitilde{}
+\textasciitilde\textasciitilde\textasciitilde{}
+\textasciitilde\textasciitilde\textasciitilde{} \textless{}
+\href{https://github.com/adamryman}{github.com/adamryman} \textgreater{}
+\textasciitilde\textasciitilde\textasciitilde{}
+\textasciitilde\textasciitilde\textasciitilde{}
+\textasciitilde\textasciitilde\textasciitilde{} \textless{}
+\textbf{585-484-7669} \textgreater{}
+
+\end{center}
+% postamble for all templates
+
+\end{document}

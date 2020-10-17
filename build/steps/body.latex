@@ -1,0 +1,299 @@
+% preamble for all templates
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{\usepackage{microtype}}{}
+\usepackage[top=1.75in, bottom=0.60in, left=0.60in, right=0.60in]{geometry}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\parskip}{0pt}
+%\setlength{\emergencystretch}{3em}  % prevent overfull lines
+
+\usepackage{multicol}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\providecommand{\tightlist}{%
+\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\setcounter{secnumdepth}{0}
+
+
+% Disable page numbers
+\pagenumbering{gobble}
+% Increase the width of the central column seperator
+\setlength\columnsep{45pt}
+
+% Increase the font size of sections
+\titleformat{\section}{\normalfont\Huge\bfseries}{\thesection}{}{}
+\titleformat{\subsection}{\normalfont\LARGE\bfseries\filcenter}{\thesection}{}{}
+\titleformat{\subsubsection}{\normalfont\large\bfseries\filcenter}{\thesection}{}{}
+
+% \titlespacing*{\foobar}{left_margin}{top_margin}{bottom_margin}
+
+% Markdown: #
+\titlespacing*{\section}{0pt}{10pt}{0pt}
+% Markdown: ##
+\titlespacing*{\subsection}{0pt}{10pt}{7pt}
+% Markdown: ###
+\titlespacing*{\subsubsection}{0pt}{10pt}{4pt}
+% Markdown: -
+\titlespacing*{\itemize}{0pt}{5pt}{5pt}
+% Markdown: plain text
+\titlespacing*{\paragraph}{0pt}{0pt}{0pt}
+% Markdown: ???
+\titlespacing*{\label}{0pt}{10pt}{10pt}
+
+\setlist[itemize]{noitemsep, topsep=1pt, leftmargin=*}
+
+\begin{document}
+
+
+\begin{multicols*}{2}
+\hypertarget{skills}{%
+\subsection{Skills}\label{skills}}
+
+\begin{itemize}
+\tightlist
+\item
+  Languages: Go (4 years), PHP (3 year), Bash (5 years), Java, Python,
+  Javascript, HTML, CSS, C, C\#, Verilog
+\item
+  CI/CD for several teams. Gitlab-CI, Jenkins, Circle-CI, Travis-CI.
+\item
+  AWS ECS, EC2, ELB/ALB, S3, Route53, EMR, etc
+\item
+  Utilizing Gitlab, Terraform, ELK, Jira, Confluence
+\end{itemize}
+
+\hypertarget{experience}{%
+\subsection{Experience}\label{experience}}
+
+\hypertarget{software-development-engineer}{%
+\subsubsection{Software Development
+Engineer}\label{software-development-engineer}}
+
+\textbf{\emph{Tune \&\& Branch}} \textbar{} \emph{Seattle, WA}
+\textbar{} 2016 - 2019
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Software Engineer - Branch Migration}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Facilitated seamless customer experience in transition to Branch by
+    implementing tooling for migrating webhook templates between Tune's
+    and Branch's domain specific languages.
+  \item
+    Ensured identical customer experience by automating Tune webhook
+    exports using CI/CD tooling for data comparisons.
+  \item
+    Responsible for mirroring of billions of requests per day with less
+    than 0.1\% error rate through both Branch and Tune systems.
+  \end{itemize}
+\item
+  \textbf{SDE II - Tune Data Core}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Reduced cost by migrating production services from over-previsioned
+    reserved hardware to autoscaling Amazon ECS.
+  \item
+    Improved customer satisfaction by hunting down and fixing customer
+    issues in multi-service pipelines.
+  \item
+    Contributed to reliability by being on-call for 30K rps distributed
+    system with regular operational overviews.
+  \item
+    Improved developer productivity by decreasing time to complete CI/CD
+    jobs for build, test, and deploy utilizing caching, docker image
+    optimization, and multi stage pipelines.
+  \end{itemize}
+\item
+  \textbf{SDE I - Tune Data Core}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Increased development throughput by containerizing dev environment
+    for services and infrastructure in Go \& PHP.
+  \item
+    Aligned terminology within engineering teams with documentation and
+    classes.
+  \end{itemize}
+\item
+  \textbf{SDE I - Tune Research \& Development}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Implemented initial CI/CD for build and test on PR, deploying to
+    staging, and deploying to production.
+  \item
+    Rapidly created new services utilizing \textbf{truss}.
+  \item
+    Scaled new multi-service product from 1 host to autoscaling on
+    Amazon ECS.
+  \end{itemize}
+\item
+  \textbf{Intern - Tune Research \& Development}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Decreased development time by co-authoring \textbf{truss}, a code
+    generation tool.
+  \end{itemize}
+\end{itemize}
+
+\hypertarget{co-creator-key-contributor}{%
+\subsubsection{Co-Creator \&\& Key
+Contributor}\label{co-creator-key-contributor}}
+
+\textbf{\emph{truss}} \textbar{}
+\emph{\href{https://github.com/metaverse/truss}{github.com/metaverse/truss}}
+\textbar{} 2016 - Current
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{golang}, \emph{protobuf/gRPC}.
+\item
+  Rapidly build gRPC\&HTTP 1.1/JSON services by generating messages and
+  encode/decode logic from protobuf/gRPC definitions.
+\item
+  Production usage at Tune and Glympse.
+\item
+  Active contributions through pull requests and issues.
+\end{itemize}
+
+\hypertarget{chief-operations-officer}{%
+\subsubsection{Chief Operations
+Officer}\label{chief-operations-officer}}
+
+\textbf{\emph{StudentRND - 501c3}} \textbar{} \emph{Bellevue, WA}
+\textbar{} 2010 - 2013
+
+\begin{itemize}
+\tightlist
+\item
+  Networked with professionals in industry to develop resources for
+  students to design, manufacture, test, \& sell experimental products.
+\item
+  Grew programming marathon, CodeDay, from grassroots to national event.
+
+  \begin{itemize}
+  \tightlist
+  \item
+    2011: First event.
+  \item
+    2012: First out of Washington; in Portland, OR.
+  \item
+    2013: Events in 5 major cities (Seattle, Portland, San Francisco,
+    Los Angeles, and New York City).
+  \item
+    Since 2011, more than 35,000 students have attended over 350
+    CodeDays across the US and Canada.
+  \end{itemize}
+\item
+  Raised over \$50k to operate non-profit endeavors.
+\item
+  Organized regular workshops teaching 30 or more students how to design
+  \& build things using laser cutters, 3D printers, electronic circuity,
+  \& various SDKs.
+\end{itemize}
+
+\hypertarget{education}{%
+\subsection{Education}\label{education}}
+
+\hypertarget{electrical-engineering-b.s.}{%
+\subsubsection{Electrical Engineering
+B.S.}\label{electrical-engineering-b.s.}}
+
+\textbf{\emph{University of Washington}} \textbar{} \emph{Seattle, WA}
+\textbar{} 2015
+
+\hypertarget{internships}{%
+\subsubsection{Internships}\label{internships}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Software Engineering Intern} (SDK/Java/Node/C\#)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\emph{Splunk}} \textbar{} \emph{Seattle, WA} \textbar{} June
+    2015 - Sept 2015
+  \end{itemize}
+\item
+  \textbf{Web Application Intern} (Ruby on Rails)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\emph{Tyemill}} \textbar{} \emph{Seattle, WA} \textbar{}
+    June 2014 - Sept 2014
+  \end{itemize}
+\item
+  \textbf{Web Application Developer} (D3)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\emph{BlackRock}} \textbar{} \emph{Seattle, WA} \textbar{}
+    Nov 2013 - June 2014
+  \end{itemize}
+\item
+  \textbf{Research Intern} (Python, Java, Weka)
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \textbf{\emph{PNNL}} \textbar{} \emph{Richland, WA} \textbar{} June
+    2011 - Aug 2011
+  \end{itemize}
+\end{itemize}
+\end{multicols*}
+% postamble for all templates
+
+\end{document}
