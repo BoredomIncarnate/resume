@@ -194,9 +194,7 @@ $if(toc)$
 $endif$
 
 
-\begin{multicols}{2}
 $body$
-\end{multicols}
 
 $if(natbib)$
 $if(biblio-files)$

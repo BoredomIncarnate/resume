@@ -75,24 +75,58 @@
 
 
 
-\begin{multicols}{2}
-\hypertarget{kyle-young}{%
-\section{Kyle Young}\label{kyle-young}}
+\section{Kyle Young}\label{kyle-young}
 
-dev.kyoung@gmail.com 206.822.4725
-
+dev.kyoung@gmail.com - 206.822.4725 -
 \href{http://github.com/boredomincarnate}{github.com/BoredomIncarnate}
 
-\hypertarget{profile}{%
-\subsection{Profile}\label{profile}}
+\subsubsection{Skills}\label{skills}
 
-Looking to advance tech career as an engineer. Offering skills in
-application development, modern web apps, and cloud-based services.
+\begin{itemize}
+\item
+  Languages: C\#, Javascript, Java, SQL, CSS
+\item
+  Other Technologies: React, Angular, Azure, AWS
+\end{itemize}
 
-\hypertarget{experience}{%
-\subsection{Experience}\label{experience}}
+\subsubsection{Software Developer, VW Automotive Cloud, Redmond WA ---
+2020}\label{software-developer-vw-automotive-cloud-redmond-wa-2020}
 
-SOFTWARE DEVELOPER, 3SHARP, REDMOND, WA --- 2018-2019
+\begin{itemize}
+\tightlist
+\item
+  Researched and developed proofs-of-concepts and minimal-viable-product
+  versions of automotive simulators.
+\item
+  Maintained JSON driven End-to-End Test Framework using Selenium and
+  .Net Core.
+\item
+  Facilitated Brown Bags for recently researched technologies and
+  paradigms.
+\item
+  Developed scalable web applications using React, Gatsby, Salesforce,
+  and Azure Functions.
+\end{itemize}
+
+\subsubsection{Software Developer, AIM Consulting (TruckTrax), Bellevue
+WA -
+2020}\label{software-developer-aim-consulting-trucktrax-bellevue-wa---2020}
+
+\begin{itemize}
+\tightlist
+\item
+  Converted Java Spring Microservices to .Net Core Microservices along
+  with their CI/CD pipelines via Jenkins.
+\item
+  Developed new features in the auth services to help meet compliance
+  and increase stability.
+\item
+  Maintained and progressed both web and mobile frontends using
+  React/React Native/Redux.
+\end{itemize}
+
+\subsubsection{Software Developer, 3Sharp, Redmond WA ---
+2018-2019}\label{software-developer-3sharp-redmond-wa-2018-2019}
 
 \begin{itemize}
 \tightlist
@@ -117,18 +151,22 @@ SOFTWARE DEVELOPER, 3SHARP, REDMOND, WA --- 2018-2019
   role.
 \end{itemize}
 
-APPLICATION DEVELOPER II, LOGAN ALUMINUM, RUSSELLVILLE, KY --- 2016-2018
+\subsubsection{App Developer II, Logan Aluminum, Russelville, KY ---
+2016-2018}\label{app-developer-ii-logan-aluminum-russelville-ky-2016-2018}
 
 \begin{itemize}
 \tightlist
 \item
-  Creating an application for chemistry calculation and prediction for
-  ingot casting that reduced \textasciitilde1million dollars in
+  Created an application for chemistry calculation and prediction for
+  ingot casting that reduced \textasciitilde{}1million dollars in
   manufacturing waste.
 \item
   Optimized sourcing and planning software by creating fulfillment and
   strategic sourcing tools to eliminate waste, saving tens of thousands
   of dollars.
+\item
+  Started the mirgration to Azure DevOps from an on-prem TFS (repo
+  migrations, CI/CD Pipelines, and working IT on Security Compliance).
 \item
   Created Angular / .Net web applications for critical monitoring
   applications.
@@ -139,8 +177,15 @@ APPLICATION DEVELOPER II, LOGAN ALUMINUM, RUSSELLVILLE, KY --- 2016-2018
   Worked on-call for urgent customer cases and as a standby for newer
   developers
 \item
-  Implemented automated builds and QA deployments SOFTWARE DEVELOPMENT
-  INTERN, INDUSTRIAL TRAINING SERVICES, MURRAY, KY --- 2014-2016
+  Implemented automated builds and QA deployments
+\end{itemize}
+
+\subsubsection{Software Intern, Industrial Training Services, Murray KY
+---
+2014-2016}\label{software-intern-industrial-training-services-murray-ky-2014-2016}
+
+\begin{itemize}
+\tightlist
 \item
   Developed Asp.Net web forms / javascript training applications for
   those in the Natural Gas field to have a unified source of employees
@@ -154,7 +199,8 @@ APPLICATION DEVELOPER II, LOGAN ALUMINUM, RUSSELLVILLE, KY --- 2016-2018
   software systems
 \end{itemize}
 
-FINANCIAL SYSTEMS INTERN, SPRING LEAF FINANCIAL, EVANSVILLE, IN --- 2014
+\subsubsection{Software Intern, Spring Leaf Financial, Evansville IN ---
+2014}\label{software-intern-spring-leaf-financial-evansville-in-2014}
 
 \begin{itemize}
 \tightlist
@@ -162,16 +208,12 @@ FINANCIAL SYSTEMS INTERN, SPRING LEAF FINANCIAL, EVANSVILLE, IN --- 2014
   Developed Financial reporting tools using CoBOL and JCL
 \item
   Created a job that would transfer data from z/OS DB2 database to a MS
-  SQL Server database. Skills \#\#\# Languages: C\# (5 years),
-  JavaScript (4 years), TypeScript
+  SQL Server database.
 \end{itemize}
 
-\hypertarget{other-technologies-angular-t-sql-pl-sql-azure-aws-blazor}{%
-\subsubsection{Other Technologies: Angular, T-SQL, P/L SQL, Azure, AWS,
-Blazor}\label{other-technologies-angular-t-sql-pl-sql-azure-aws-blazor}}
+\subsubsection{Education}\label{education}
 
-Education Murray State University, Murray, KY --- B.S. Computer Science
-(Cum Laude), 2016
-\end{multicols}
+Murray State University, Murray, KY --- B.S. Computer Science (Cum
+Laude), 2016
 
 \end{document}

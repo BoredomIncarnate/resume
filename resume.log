@@ -1,0 +1,20 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdftex 2020.11.18)  18 NOV 2020 17:19
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**resume.md
+(./resume.md
+! You can't use `macro parameter character #' in vertical mode.
+l.8 #
+     # Profile
+? 
+! You can't use `macro parameter character #' in vertical mode.
+l.8 ##
+       Profile
+? 
+! Emergency stop.
+l.8 ##
+       Profile
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
