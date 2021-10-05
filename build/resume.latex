@@ -75,42 +75,53 @@
 
 
 
-\section{Kyle Young}\label{kyle-young}
+\hypertarget{kyle-young}{%
+\section{Kyle Young}\label{kyle-young}}
 
 dev.kyoung@gmail.com - 206.822.4725 -
 \href{http://github.com/boredomincarnate}{github.com/BoredomIncarnate}
 
-\subsubsection{Skills}\label{skills}
+\hypertarget{skills}{%
+\subsubsection{Skills}\label{skills}}
 
 \begin{itemize}
+\tightlist
 \item
-  Languages: C\#, Javascript, Java, SQL, CSS
+  Languages: C\#, Javascript, YML, Python, Bash, Powershell
 \item
-  Other Technologies: React, Angular, Azure, AWS
+  Other Technologies: Git, Azure, CosmosDB, Node, React, Angular
 \end{itemize}
 
+\hypertarget{software-developer-vw-automotive-cloud-redmond-wa-2020-present}{%
 \subsubsection{Software Developer, VW Automotive Cloud, Redmond WA ---
-2020}\label{software-developer-vw-automotive-cloud-redmond-wa-2020}
+2020-Present}\label{software-developer-vw-automotive-cloud-redmond-wa-2020-present}}
 
 \begin{itemize}
 \tightlist
 \item
   Researched and developed proofs-of-concepts and minimal-viable-product
-  versions of automotive simulators.
+  versions of automotive emulators.
+\item
+  Created CI/CD \& other styles of pipelines for net-new applications
+  using Yaml + Azure pipelines.
+\item
+  Created and Participated in mobbing sessions to solve difficult /
+  error prone problems.
 \item
   Maintained JSON driven End-to-End Test Framework using Selenium and
   .Net Core.
 \item
-  Facilitated Brown Bags for recently researched technologies and
-  paradigms.
+  Developed web applications using React, Gatsby, Salesforce, and Azure
+  Functions.
 \item
-  Developed scalable web applications using React, Gatsby, Salesforce,
-  and Azure Functions.
+  Wrote user stories and epics to help start and keep track of
+  engineering needs as well as customer wanted features.
 \end{itemize}
 
+\hypertarget{software-developer-aim-consulting-trucktrax-bellevue-wa-2020}{%
 \subsubsection{Software Developer, AIM Consulting (TruckTrax), Bellevue
-WA -
-2020}\label{software-developer-aim-consulting-trucktrax-bellevue-wa---2020}
+WA ---
+2020}\label{software-developer-aim-consulting-trucktrax-bellevue-wa-2020}}
 
 \begin{itemize}
 \tightlist
@@ -125,8 +136,9 @@ WA -
   React/React Native/Redux.
 \end{itemize}
 
+\hypertarget{software-developer-3sharp-redmond-wa-2018-2019}{%
 \subsubsection{Software Developer, 3Sharp, Redmond WA ---
-2018-2019}\label{software-developer-3sharp-redmond-wa-2018-2019}
+2018-2019}\label{software-developer-3sharp-redmond-wa-2018-2019}}
 
 \begin{itemize}
 \tightlist
@@ -136,9 +148,6 @@ WA -
 \item
   Wrote location services using .Net Core / Angular7 to generate geo
   specific enterprise tools to empower the workforces of our clients.
-\item
-  Active contributor in new business developments with key clients.
-  Reviewed and managed new projects.
 \item
   Developed automation workflows for packaging tools to increase
   productivity and reduce time by eliminating the need for manual
@@ -151,8 +160,9 @@ WA -
   role.
 \end{itemize}
 
+\hypertarget{app-developer-ii-logan-aluminum-russelville-ky-2016-2018}{%
 \subsubsection{App Developer II, Logan Aluminum, Russelville, KY ---
-2016-2018}\label{app-developer-ii-logan-aluminum-russelville-ky-2016-2018}
+2016-2018}\label{app-developer-ii-logan-aluminum-russelville-ky-2016-2018}}
 
 \begin{itemize}
 \tightlist
@@ -161,14 +171,10 @@ WA -
   ingot casting that reduced \textasciitilde{}1million dollars in
   manufacturing waste.
 \item
-  Optimized sourcing and planning software by creating fulfillment and
-  strategic sourcing tools to eliminate waste, saving tens of thousands
-  of dollars.
-\item
   Started the mirgration to Azure DevOps from an on-prem TFS (repo
   migrations, CI/CD Pipelines, and working IT on Security Compliance).
 \item
-  Created Angular / .Net web applications for critical monitoring
+  Created Angular2 / .Net web applications for critical monitoring
   applications.
 \item
   Workshopped new processes to better distribute and solve customer
@@ -180,9 +186,10 @@ WA -
   Implemented automated builds and QA deployments
 \end{itemize}
 
+\hypertarget{software-intern-industrial-training-services-murray-ky-2014-2016}{%
 \subsubsection{Software Intern, Industrial Training Services, Murray KY
 ---
-2014-2016}\label{software-intern-industrial-training-services-murray-ky-2014-2016}
+2014-2016}\label{software-intern-industrial-training-services-murray-ky-2014-2016}}
 
 \begin{itemize}
 \tightlist
@@ -199,19 +206,19 @@ WA -
   software systems
 \end{itemize}
 
+\hypertarget{software-intern-spring-leaf-financial-evansville-in-2014}{%
 \subsubsection{Software Intern, Spring Leaf Financial, Evansville IN ---
-2014}\label{software-intern-spring-leaf-financial-evansville-in-2014}
+2014}\label{software-intern-spring-leaf-financial-evansville-in-2014}}
 
 \begin{itemize}
 \tightlist
-\item
-  Developed Financial reporting tools using CoBOL and JCL
 \item
   Created a job that would transfer data from z/OS DB2 database to a MS
   SQL Server database.
 \end{itemize}
 
-\subsubsection{Education}\label{education}
+\hypertarget{education}{%
+\subsubsection{Education}\label{education}}
 
 Murray State University, Murray, KY --- B.S. Computer Science (Cum
 Laude), 2016
